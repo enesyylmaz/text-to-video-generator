@@ -8,7 +8,7 @@ function App() {
   const canvasRef = useRef(null);
 
   const [prompt, setPrompt] = useState(
-    "A man stands waist-deep in a crystal-clear mountain pool, his back turned to a massive, thundering waterfall that cascades down jagged cliffs behind him. He wears dark blue swimming shorts and his muscular back glistens with water droplets..."
+    "A stunning aurora borealis sweeps across the dark sky, its vibrant greens and purples shimmering above a vast, untouched snow-covered terrain, creating a magical and serene atmosphere."
   );
   const [video, setVideo] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -164,9 +164,9 @@ function App() {
           <header className="text-center">
             <h1
               id="distorted-text"
-              className="text-9xl font-extrabold tracking-tight text-white mb-12"
+              className="text-5xl font-extrabold tracking-tight text-white mb-12"
             >
-              Video Generator AI
+              Text-To-Video
             </h1>
             <p id="subtitle-text" className="text-lg text-gray-300 mb-12">
               Transform your imagination into reality with AI-generated videos.
